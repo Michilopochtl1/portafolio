@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
     <title>Michilopochtli</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <!-- _____ Slick Slider _____ -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css">
 </head>
 <body>
     <!------------------------------ NABVAR ----------------------------->
@@ -45,8 +45,9 @@
         <div id="web">
          <p>DESARROLLADORA</p><p>WEB</p>
         </div>    
-          <!-- <button id="cv">Descargar CV</button> -->
+        <a style="text-decoration: none;" href="https://drive.google.com/file/d/1PZmmGedLt9ZTUg-ueUXAqirArIdhFIZ8/view?usp=drive_link" target="_blank">
           <button class="button-56" role="button">Descargar CV</button>
+        </a>
 
     </div>
     <br><br><br>
@@ -63,48 +64,66 @@
 <br><br><br>
 <!------------------------------ SEPARADOR ----------------------------->
 
-<!------------------------------ CARRUSEL ----------------------------->
+<!------------------------------ CARRUSEL ROBADO DE YUTU ----------------------------->
 
-<div>
-    <div id="carouselExampleDark" class="carousel carousel-dark slide">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="10000">
-            <img src="/rsc/wawalote.jpg" class="d-block w-100" alt="..." width="600px" height="600px">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>"La verdadera generosidad hacia el futuro consiste en darlo todo al presente." <br>
-                — Albert Camus.</h5>
-              <p>Some representative placeholder content for the first slide.</p>
-            </div>
-          </div>
-          <div class="carousel-item" data-bs-interval="2000">
-            <img src="/rsc/wawalote.jpg" class="d-block w-100" alt="..." width="600px" height="600px">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Softskills</h5>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, ea. Voluptatem, reprehenderit laborum at odio commodi sint voluptates nesciunt blanditiis veniam quis laudantium nihil, culpa natus vero quae aliquid esse!</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="/rsc/wawalote.jpg" class="d-block w-100" alt="..." width="600px" height="600px">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Hardskills</h5>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque expedita optio aut ipsam rerum, aliquam recusandae consequuntur quas possimus accusantium. Nihil veritatis ad, voluptas molestiae dolores reiciendis vero! Numquam, molestias.</p>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+
+<div class="container my-3">
+  <div class="row justify-content-center">
+    <div class="col-lg-7 col-md-8">
+      <div class="text-center">
+        <h1 class="text-dark fw-bold" style="font-size: 55px;">Skills</h1>
+          <p class="text-dark fw-bold">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Necessitatibus, nam dolorum cumque quibusdam iure ipsum repellendus hic assumenda. 
+             Corrupti eius neque unde veniam esse deleniti repellat enim praesentium possimus architecto.</p>
       </div>
+    </div>
+  </div>
+  <br>
+  
+
+
+  <div class="slider">
+    <div class="mx-2">
+      <img src="/rsc/camus.png" alt="Albert Camus">
+      <div class="text-center xyz">
+        <h2 class="pt-2 fw-bold"></h2>
+      </div>
+    </div>
+    <div class="mx-2">
+      <img src="/rsc/soft skills.png" alt="Soft skills">
+      <div class="text-center xyz">
+        <h2 class="pt-2 fw-bold">Habilidades blandas</h2>
+          <p class="px-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur totam libero dolorem perspiciatis..</p>
+      </div>
+    </div>
+    <div class="mx-2">
+      <img src="/rsc/Hard skills.png" alt="Hard skills">
+      <div class="text-center xyz">
+        <h2 class="pt-2 fw-bold">Habilidades duras</h2>
+          <p class="px-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur totam libero dolorem perspiciatis..</p>
+      </div>
+    </div>
+    <div class="mx-2">
+      <img src="/rsc/camus.png" alt="Albert Camus">
+      <div class="text-center xyz">
+        <h2 class="pt-2 fw-bold"></h2>
+      </div>
+    </div>
+    <div class="mx-2">
+      <img src="/rsc/soft skills.png" alt="Soft skills">
+      <div class="text-center xyz">
+        <h2 class="pt-2 fw-bold">Habilidades blandas</h2>
+          <p class="px-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur totam libero dolorem perspiciatis..</p>
+      </div>
+    </div>
+    <div class="mx-2">
+      <img src="/rsc/Hard skills.png" alt="Hard skills">
+      <div class="text-center xyz">
+        <h2 class="pt-2 fw-bold">Habilidades duras</h2>
+          <p class="px-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur totam libero dolorem perspiciatis..</p>
+      </div>
+    </div>
+  </div>
 </div>
 
 <!------------------------------ CARRUSEL ----------------------------->
@@ -201,6 +220,10 @@
 <!------------------------------ SEPARADOR ----------------------------->
 
 <H1>AYUDA TODAVÍA TENGO QUE HACER EL APARTADO DE CONTACTO YA NO PUEDO DIOS MÍO</H1>
+
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
 <script src="/css/main.js"></script>
 </body>
 </html>
