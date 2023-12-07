@@ -31,3 +31,18 @@ $('.slider').slick({
       },
     }]
   });
+
+
+function validateForm() {
+  const phoneInput = document.getElementById('phone');
+  const phonePattern = /^\d{10}$/;
+
+  if (!phonePattern.test(phoneInput.value)) {
+    alert('Por favor, introduce un número de teléfono válido de 10 dígitos.');
+    return false;
+  }
+
+  // Puedes agregar más validaciones aquí si es necesario
+
+  return true; // Envía el formulario si todas las validaciones son correctas
+}

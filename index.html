@@ -72,9 +72,9 @@
     <div class="col-lg-7 col-md-8">
       <div class="text-center">
         <h1 class="text-dark fw-bold" style="font-size: 55px;">Skills</h1>
-          <p class="text-dark fw-bold">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-             Necessitatibus, nam dolorum cumque quibusdam iure ipsum repellendus hic assumenda. 
-             Corrupti eius neque unde veniam esse deleniti repellat enim praesentium possimus architecto.</p>
+          <p class="text-dark fw-bold">"Pero ningún precio es demasiado alto por el privilegio de ser uno mismo"
+          </br>— Friedrich Nietzsche
+          </p>
       </div>
     </div>
   </div>
@@ -183,29 +183,44 @@
 </div>
 
 <div class="aboutme" >
-    <img id="fotomia" src="/rsc/wawalote.jpg" alt="Foto mía" width="260px" height="260px">
-    <p id="bio" >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam, enim ullam cumque suscipit error quibusdam omnis recusandae possimus eum nobis quidem atque ipsa, quas ad provident tempore quis fuga neque.</p>
+    <img class="fotomia" src="/rsc/Alma.png" alt="Foto mía" width="260px" height="260px">
+    <p class="bio" >Soy una profesional en desarrollo que está en constante aprendizaje. Me preparé como Desarrolladora Full Stack Jr y estoy ansiosa por explorar y ampliar mis conocimientos en el mundo del desarrollo web. Siempre estoy dispuesta a asumir desafíos, encontrar soluciones y mejorar la eficiencia en el trabajo. </p>
 </div>
 <br>
 
 <div class="containerFormacion">
     <div class="formacion">
     <p class="title" >FORMACIÓN</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et voluptatum molestiae velit aperiam quaerat maiores error illo id asperiores quod laboriosam, nesciunt totam possimus accusamus incidunt sit quisquam. Nam, tenetur!</p>
-    <p class="title" >EDUCACIÓN</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt natus saepe sint autem impedit asperiores, nostrum reprehenderit corporis! Nemo necessitatibus consequuntur fugit quas officia unde vitae et deleniti facilis qui.</p>
+    <p> GENERATION </p>
+    <p>Cursé un bootcamp de doce semanas de duración en las que aprendí a utilizar HTML, CSS, JavaScript, Java, MySQL, SpringBot, además de habilidades blandas, entre ellas el desarrollo de una página web aplicando habilidades duras, blandas y con metodología SCRUM.</p>
+   <p class="title" >EDUCACIÓN</p>
+   <p>FACULTAD DE FILOSOFÍA Y LETRAS</p>
+   <p>Carrera trunca en filosofía. Aprendí investigación, pensamiento crítico, lógica, etc.</p>
     <p class="title" >CURSOS Y CERTIFICACIONES</p>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, at beatae quibusdam ex nisi velit necessitatibus vero quae, eveniet assumenda a mollitia minima voluptatum consequuntur ad itaque modi unde temporibus.</p>
     <p class="title" >IDIOMAS</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur accusantium officia perferendis eveniet recusandae voluptas. Voluptas corporis molestiae id iure explicabo. Ipsa at provident itaque! Iusto ullam perferendis non sed.</p>
+    <p>Inglés — B2</p>
 </div>
 <div class="linea"></div>
+
+
+
 <div class="socialmedia">
-<img src="/rsc/ajolote.png" alt="" width="50px" height="50px">
-<p>@username</p>
-<img src="/rsc/ajolote.png" alt="" width="50px" height="50px">
-<p>@username</p>
+  <div class="linksmedia">
+  <a style="text-decoration: none; color: #510F00"; href="https://github.com/Michilopochtl1"; target="_blank">
+<img src="/rsc/github.png" alt="" width="50px" height="50px">
+<p>@Michilopochtl1</p>
 </div>
+</a>
+<br><br>
+<div class="linksmedia">
+  <a style="text-decoration: none; color: #510F00"; href="https://www.linkedin.com/in/alma-graciela-martinez-gonzalez-3532411b0/"; target="_blank">
+<img src="/rsc/linkedin.png" alt="" width="50px" height="50px">
+<p>Alma Graciela Martínez González</p>
+</div>
+</a>
+</div>
+
 
 </div>
 <br><br><br>
@@ -219,7 +234,60 @@
 
 <!------------------------------ SEPARADOR ----------------------------->
 
-<H1>AYUDA TODAVÍA TENGO QUE HACER EL APARTADO DE CONTACTO YA NO PUEDO DIOS MÍO</H1>
+
+
+<div class="textform">
+  <div class="axolotl" >
+  <img src="/rsc/ajolote.png" alt="ajolote" width="120px" height="120px">
+  </div>
+  <div class="txtform" >
+  <p class="contactame">¡Contáctame!</p>
+  <p class="descform" >Me gustan los gatos, los ajolotes, ganar dinero por un trabajo bien hecho y estar a la orden pal desorden.</p>
+  </div>
+</div>
+
+<form class="contact-form" onsubmit="return validateForm()">
+  <div class="form-group">
+    <label for="name">Nombre:</label>
+    <input type="text" id="name" name="name" required>
+  </div>
+  
+  <div class="form-group">
+    <label for="phone">Teléfono:</label>
+    <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
+    <small>Introduce un número de teléfono de 10 dígitos</small>
+  </div>
+  
+  <div class="form-group">
+    <label for="email">Correo:</label>
+    <input type="email" id="email" name="email" required>
+  </div>
+  
+  <div class="form-group">
+    <label for="subject">Asunto:</label>
+    <input type="text" id="subject" name="subject" required>
+  </div>
+  
+  <div class="form-group">
+    <label for="message">Mensaje:</label>
+    <textarea id="message" name="message" rows="5" required></textarea>
+  </div>
+  
+  <button type="submit">Enviar</button>
+</form>
+
+
+<footer class="site-footer">
+  <div class="footer-content">
+    <p>Alma Graciela Martínez González</p>
+    <p>Todos los derechos reservados a mis desvelos y desesperanza</p>
+    <p>De México para el mundo</p>
+  </div>
+</footer>
+
+
+</body>
+</html>
 
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
